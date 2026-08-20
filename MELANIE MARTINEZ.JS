@@ -1057,7 +1057,7 @@ Slice of heaven that I gave to you last night`
 
         wheelsonthebus:{
         titulo:"Wheels On The Bus",
-        audio: "musicamm/Wheels on the Bus.mp3",
+        audio: "musicamm/Wheels On the Bus.mp3",
         letra:`I'm just looking out the window and it's cold outside
 There are two boys yelling behind me and I'm terrified
 Counting trees as they pass me by
@@ -4526,7 +4526,7 @@ Baby, you're dead to me
     },    
 
     bittersweettragedy:{
-        titulo:"Bittersweet tragedy",
+        titulo:"Bittersweet Tragedy",
         audio: "musicamm/Bittersweet tragedy.mp3",
         letra:`Sweet boy, straight out of the movie screen
 Candy hearts and chocolate dreams
