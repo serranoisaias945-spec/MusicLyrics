@@ -2,7 +2,7 @@ const canciones = {
 
     crybaby:{
         titulo:"Cry Baby",
-        audio: "musicamm/cry baby.mp3",
+        audio: "musicamm/Cry baby.mp3",
         letra:`You seem to replace your brain with your heart
 You take things so hard and then you fall apart
 You try to explain, but before you can start
