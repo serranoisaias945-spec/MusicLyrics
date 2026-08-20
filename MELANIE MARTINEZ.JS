@@ -4527,7 +4527,7 @@ Baby, you're dead to me
 
     bittersweettragedy:{
         titulo:"Bittersweet Tragedy",
-        audio: "musicamm/Bittersweet tragedy.mp3",
+        audio: "musicamm/Bittersweet Tragedy.mp3",
         letra:`Sweet boy, straight out of the movie screen
 Candy hearts and chocolate dreams
 I met my prince upon popcorn bowl
@@ -4786,7 +4786,7 @@ Up right back
 
     mirror:{
         titulo:"Honey, This Mirror Isn't Big Enough For The Two Of Us",
-         audio: "MUSICMCR/Honey, This Mirror Isn't Big Enough For The Two Of Us.mp3",
+         audio: "MUSICMCR/Honey, This Mirror Isn't Big Enough for the Two of Us.mp3",
         letra:`The amount of pills I'm taking counteracts the booze I'm drinking
 And this vanity I'm breaking, let's me live my life like this
 And well I find it hard to stay, with the words you say
@@ -4941,7 +4941,7 @@ And I wish you away
      
         lady:{
         titulo:"Our Lady Of Sorrows",
-        audio: "MUSICMCR/Our Lady Of Sorrows.mp3",
+        audio: "MUSICMCR/Our Lady of Sorrows.mp3",
         letra:`We could be perfect one last night
 And die like star-crossed lovers when we fight
 And we can settle this affair
@@ -5102,7 +5102,7 @@ But does anyone notice there's a corpse in this bed?
 
        bestday:{
         titulo:"This Is The Best Day Ever",
-        audio: "MUSICMCR/This Is The Best Day Ever.mp3",
+        audio: "MUSICMCR/This Is the Best Day Ever.mp3",
         letra:`And we can run, from the backdrop of these gears and scalpels
 At every hour goes the tick-tock bang of monitors as
 They stared us down when met in the emergency room
@@ -5325,7 +5325,7 @@ Well, there's no way I'm kissing that guy!
 
         totheend:{
         titulo:"To The End",
-        audio: "MUSICMCR/To The End.mp3",
+        audio: "MUSICMCR/To the End.mp3",
         letra:`He calls the mansion not a house but a tomb
 He's always choking from the stench and the fume
 The wedding party all collapsed in the room
@@ -5480,7 +5480,7 @@ I'm not okay (okay)
 
             ghost:{
         titulo:"The Ghost Of You",
-        audio: "MUSICMCR/The Ghost Of You.mp3",
+        audio: "MUSICMCR/The Ghost of You.mp3",
         letra:`I never said I'd lie and wait forever
 If I died, we'd be together now
 I can't always just forget her
@@ -5595,7 +5595,7 @@ Come angels of unknow
 
     venom:{
         titulo:"Thank You For The Venom",
-        audio: "MUSICMCR/Thank You For The Venom.mp3",
+        audio: "MUSICMCR/Thank You for the Venom.mp3",
         letra:`Sister, I'm not much a poet, but a criminal
 And you never had a chance
 Love it or leave it, you can't understand
@@ -5792,7 +5792,7 @@ Way down, way down, way down, way down, way down
 
     inevertold:{
         titulo:"I Never Told You What I do For a Living",
-        audio: "MUSICMCR/I Never Told You What I do For a Living.mp3",
+        audio: "MUSICMCR/I Never Told You What I Do for a Living.mp3",
         letra:`Stay out of the light
 Or the photograph that I gave you
 You can say a prayer if you need to
@@ -6029,7 +6029,7 @@ Oh-ooh-oh-oh-oh-oh-oh-oh.
 
     blackparade:{
         titulo:"Welcome To The Black Parade",
-        audio: "MUSICMCR/Welcome To The Black Parade.mp3",
+        audio: "MUSICMCR/Welcome to the Black Parade.mp3",
         letra:`When I was a young boy
 My father took me into the city
 To see a marching band
@@ -6153,7 +6153,7 @@ I don't love you like I loved you yesterday
     
     wolves:{
         titulo:"House Of Wolves",
-        audio: "MUSICMCR/House Of Wolves.mp3",
+        audio: "MUSICMCR/House of Wolves.mp3",
         letra:`Well, I know a thing about contrition
 Because I got enough to spare
 And I'll be granting your permission
@@ -6731,7 +6731,7 @@ Away from here
 
     sing:{
         titulo:"Sing",
-        audio: "MUSICMCR/Sing.mp3",
+        audio: "MUSICMCR/SING.mp3",
         letra:`Sing it out
 Boy, you've got to see what tomorrow brings
 Sing it out
@@ -6911,7 +6911,7 @@ Go home!
 
     onlyhope:{
         titulo:"The Only Hope For Me Is You",
-        audio: "MUSICMCR/The Only Hope For Me Is You.mp3",
+        audio: "MUSICMCR/The Only Hope for Me Is You.mp3",
         letra:`Remember me
 Remember me
 Remember me
@@ -7249,7 +7249,7 @@ Anytime you want.
 
     destroya:{
         titulo:"Destroya",
-        audio: "MUSICMCR/Destroya.mp3",
+        audio: "MUSICMCR/DESTROYA.mp3",
         letra:`Check check
 Check check
 Check check, check check, check check
@@ -7336,7 +7336,7 @@ Against the Sun, we're the enemy!
 
     kids:{
         titulo:"The Kids From Yesterday",
-        audio: "MUSICMCR/The Kids From Yesterday.mp3",
+        audio: "MUSICMCR/The Kids from Yesterday.mp3",
         letra:`Well, now this could be the last of all the rides we take
 So hold on tight and don't look back
 We don't care about the message or the rules they make
@@ -8141,7 +8141,7 @@ Buscando, buscando...`
 
     juegosdeseduccion:{
         titulo:"Juegos de Seducción",
-        audio: "musicsoda/Juegos de Seducción.mp3",
+        audio: "musicsoda/Juegos De Seducción.mp3",
         letra:`Voy a ser tu mayordomo
 Y vos harás el rol de señora bien
 O puedo ser tu violador
@@ -8726,7 +8726,7 @@ Oh, no, esta no es mi noche`
 
     enlaciudaddelafuria:{
         titulo:"En La Ciudad de La Furia",
-        audio: "musicsoda/En La Ciudad de La Furia.mp3",
+        audio: "musicsoda/En La Ciudad De La Furia.mp3",
         letra:`Me verás volar por la ciudad de la furia
 Donde nadie sabe de mí y yo soy parte de todos
 Nada cambiará con un aviso de curva
@@ -9046,7 +9046,7 @@ De mis labios`
 
     elritmodetusojos:{
         titulo:"El Ritmo de Tus Ojos",
-        audio: "musicsoda/El Ritmo de Tus Ojos.mp3",
+        audio: "musicsoda/El Ritmo De Tus Ojos.mp3",
         letra:`Muéstrame tu cruz
 el ritmo de tus ojos
 sos parte del imán
@@ -9092,7 +9092,7 @@ y es el ritmo de tus ojos`
 
 
     terapiadeamorintensiva:{
-        titulo:"Terapia de Amor Intensiva",
+        titulo:"Terapia De Amor Intensiva",
         audio: "musicsoda/Terapia de Amor Intensiva.mp3",
         letra:`Tal vez juguemos toda la vida aquí
 Y lo que la asfixia no pueda abatir
@@ -10122,7 +10122,7 @@ Ya pagué, por quebrar la calma`
 
     cremadeestrellas:{
         titulo:"Crema de Estrellas",
-        audio: "musicsoda/Crema de Estrellas.mp3",
+        audio: "musicsoda/Crema De Estrellas.mp3",
         letra:`Lo que irradia esta noche es especial
 Sobre el lago resplandece
 Esperaba una tenue aparición
