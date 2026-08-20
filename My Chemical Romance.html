@@ -1,0 +1,315 @@
+<HTML>
+<body bgcolor="BLACK">
+<center>
+<table width="80%">
+<tr>
+<td>
+<TABLE CELLPADDING="0" BORDER="3" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+<TR>
+</td>
+</tr>
+<NAV CLASS="menu-principal">
+    <UL CLASS="menu">
+        <a href="INICIO.html">
+    <img src="LOGO2.png" alt="Logo de MusicLyrics"
+    width="120"
+    HEIGHT="70"
+    CELLPADDING="0" BORDER="1" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+</a>
+
+<div class="menu">
+    <button class="menu-btn" onclick="toggleMenu()" background:#a855f7;>☰</button>
+    <div id="menuDesplegable" class="menu-contenido">
+        <a href="Inicio.html">🏠 Inicio</a>
+        <a href="ACERCA.html">ℹ️ Acerca de esta página</a>
+        <a href="creditos.html">👥 Créditos</a>
+    </div>
+</div>
+<button id="modo">☀️</button>
+<li class="buscador">
+
+<input 
+id="buscarArtista" 
+type="text" 
+oninput="sugerenciasArtistas()" 
+onkeydown="enterBuscar(event)"
+placeholder="Buscar artista...">
+
+    <button onclick="buscarArtista()">🔍</button>
+
+    <div id="listaSugerencias"></div>
+
+</li>
+</NAV>
+</table>
+
+<br><br>
+<link rel="STYLESHEET" href="MELANIE MARTINEZ.css">
+
+<div class="perfil artista">
+    <img src="MCR.jpe" alt="Melanie Martinez" height="180", width="180">
+    <div class="informacion">
+        <h1 style="font-family: Old English Text MT;">My Chemical Romance</h1>
+        <div class="perfil">
+            <img src="Spotify.png" width="60", height="60">
+        <a href="https://open.spotify.com/intl-es/artist/7FBcuc1gsnv6Y1nwFtNRCb?si=hu0ePgDTQPu8zHLVev9GFQ" style="color: rgb(255, 62, 62);" target="_blank">Escuchar en spotify</a>
+        </div>
+    </div>
+</div>
+<br>
+<font style="font-family: 'Times New Roman', Times, serif;" size="2">
+        <p>My Chemical Romance, también conocido oficialmente por sus siglas como MCR, es un cuarteto estadounidense de pop punk y post-hardcore,formado en 2001 en el estado de Nueva Jersey, e integrado en la mayor parte de su historia por el vocalista Gerard Way, el bajista Mikey Way y los guitarristas Ray Toro y Frank Iero; también Matt Pelissier y Bob Bryar fueron alguna vez los bateristas, y James Dewees el teclista.</p>
+        <p>Conocida por algunos de sus grandes éxitos y su estilo emo vampiresco.</p>
+        <h3 style= "color: white;">Estilo Musical y Conceptual:</h3>
+        <p>Pop punk, post-hardcore, su característico estilo melancólico e imponente.</p>
+        <p>Estética visual: Se caracterizan por sus cambios de estilo con el paso de sus álbumes, desde parecer vampiros, hasta ser los fabulosos killjoys rebeldes e imponenetes contra el sistema.</p>
+</font>
+<br><br>
+            <hr noshade SIZE="5" COLOR="#333">
+    <script src="MELANIE MARTINEZ.JS"> </script>
+    <div class="contenedor">
+    <div class="artista" id="melanie"></div>
+    <div class="albumes">
+    <h1 style="color: white;">Álbumes:</h1>   
+    <div class="album">
+    <img src="bullets.jpg"
+         height="120"
+         width="120">
+        <details>
+            
+        <summary>I brought you my bullets, you brought me your love</summary>
+<BR>
+    <button onclick="mostrarCancion('Romance')">Romance</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('mirror')">Honey, This Mirror Isn't Big Enough For The Two Of Us</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('vampires')">Vampires Will Never Hurt You</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('lessons')">Drowning Lessons</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('lady')">Our Lady Of Sorrows</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('halos')">Headfirts of Halos</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('skylines')">Skylines and Turnstiles</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('sunsets')">Early Sunsets Over Monroeville</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('bestday')">This Is The Best Day Ever</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('cubicles')">Cubicles</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('demolitionlovers')">Demolition Lovers</button>
+    <br><br>
+
+
+</details>
+</div>  
+<br><br>
+<div class="album">
+<img src="revenge.jpg"
+height="120"
+width="120">
+<details>
+    <summary>Three Cheers For Sweet Revenge</summary>
+<br>
+<button onclick="mostrarCancion('helena')">Helena</button>
+<br><br>
+
+<button onclick="mostrarCancion('hellkid')">Give 'Em Hell Kid</button>
+<br><br>
+
+<button onclick="mostrarCancion('totheend')">To the End</button>
+<br><br>
+
+<button onclick="mostrarCancion('prison')">You Now What They To Do Guys Like Us in Prison </button>
+<br><br>
+
+<button onclick="mostrarCancion('notokay')">I'm Not Okay (I Promise)</button>
+<br><br>
+
+<button onclick="mostrarCancion('ghost')">The Ghost of You</button>
+<br><br>
+
+<button onclick="mostrarCancion('jetsetlife')">The Jetset Life Is Gonna Kill You</button>
+<br><br>
+
+<button onclick="mostrarCancion('interlude')">Interlude</button>
+<br><br>
+
+<button onclick="mostrarCancion('venom')">Thank You for the Venom</button>
+<br><br>
+
+<button onclick="mostrarCancion('hangemhigh')">Hang 'Em High</button>
+<br><br>
+
+<button onclick="mostrarCancion('fashion')">Is Not a  Fashion Statement, I'ts a Deathwhis</button>
+<br><br>
+
+<button onclick="mostrarCancion('cemeterydrive')">Cemetery Drive</button>
+<br><br>
+
+<button onclick="mostrarCancion('inevertold')">I Never Told You What I Do for a Living</button>
+
+</details>
+</div>
+<BR><BR>
+    <div class="album">
+    <img src="black parade.jpe"
+    height="120"
+    width="120">
+<details>
+    <summary>The Black Parade</summary>
+<br>
+<button onclick="mostrarCancion('end')">The End.</button>
+<br><br>
+
+<button onclick="mostrarCancion('dead')">Dead!</button>
+<br><br>
+
+<button onclick="mostrarCancion('disappear')">This Is How I Disappear</button>
+<br><br>
+
+<button onclick="mostrarCancion('sharpest')">The Sharpest Live</button>
+<br><br>
+
+<button onclick="mostrarCancion('blackparade')">Welcome To The Black Parade</button>
+<br><br>
+
+<button onclick="mostrarCancion('dontlove')">I Don't Love You</button>
+<br><br>
+
+<button onclick="mostrarCancion('wolves')">House Of Wolves</button>
+<br><br>
+
+<button onclick="mostrarCancion('cancer')">Cancer</button>
+<br><br>
+
+<button onclick="mostrarCancion('mama')">Mama</button>
+<br><br>
+
+<button onclick="mostrarCancion('sleep')">Sleep</button>
+<br><br>
+
+<button onclick="mostrarCancion('teenagers')">Teenagers</button>
+<br><br>
+
+<button onclick="mostrarCancion('disenchanted')">Disenchanted</button>
+<br><br>
+
+<button onclick="mostrarCancion('lastwords')">Famous Last Words</button>
+<br><br>
+
+<button onclick="mostrarCancion('blood')">Blood (Hidden Track)</button>
+<br><br>
+
+</details>
+</div>
+<BR><BR>
+        <div class="album">
+    <img src="danger days.jpe"
+    height="120"
+    width="120">
+<details>
+    <summary>Danger days: the true lives of the Fabulous Killjoys</summary>
+<br>
+<button onclick="mostrarCancion('lookalive')">Look Alive, Sunshine</button>
+<br><br>
+
+<button onclick="mostrarCancion('nanana')">Na Na Na (Na Na Na Na Na Na Na Na Na)</button>
+<br><br>
+
+<button onclick="mostrarCancion('bulletproof')">Bulletproof Heart</button>
+<br><br>
+
+<button onclick="mostrarCancion('sing')">Sing</button>
+<br><br>
+
+<button onclick="mostrarCancion('planetary')">Planetary (GO!)</button>
+<br><br>
+
+<button onclick="mostrarCancion('onlyhope')">
+The Only Hope For Me Is You</button>
+<br><br>
+
+<button onclick="mostrarCancion('kobrakid')">
+Jet-Star and the Kobra Kid,Traffic Report</button>
+<br><br>
+
+<button onclick="mostrarCancion('partypoison')">Party Poison</button>
+<br><br>
+
+<button onclick="mostrarCancion('save')">T
+Save Yourself, I'll Hold Them Back</button>
+<br><br>
+
+<button onclick="mostrarCancion('scarecrow')">SCARECROW</button>
+<br><br>
+
+<button onclick="mostrarCancion('summertime')">Summertime</button>
+<br><br>
+
+<button onclick="mostrarCancion('destroya')">Destroya</button>
+<br><br>
+
+<button onclick="mostrarCancion('kids')">The Kids From Yesterday</button>
+<br><br>
+
+<button onclick="mostrarCancion('drdeath')">
+Goodnite, Dr. Death</button>
+<br><br>
+
+<button onclick="mostrarCancion('vampiremoney')">Vampire Money</button>
+<br><br>
+</details>
+        </div>
+            <div class="album">
+    </div>
+                <div class="album">
+
+</div>
+                <div>
+</div>
+</details>
+</div>
+    <div class="contenido">
+
+        <h1 id="titulo" style="font-family: 'Times New Roman', Times, serif;">
+            Selecciona una canción
+        </h1>
+
+<audio id="audio" controls></audio>
+
+<br><br>
+        <div id="letra"></div>
+
+    </div>
+    </div>
+</div>
+</div>
+<br><br>
+<H3 style="font-family: 'Times New Roman', Times, serif; color: white;">Sigue a My Chemical Romance en:</H3>
+
+<a href="https://www.instagram.com/mychemicalromance?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="instagram">
+    <img src="IG.png" height="20" width="20"> Instagram
+</a>
+<br><br>
+
+<a href="https://x.com/MCRofficial?s=20" target="_blank" class="x">
+    <img src="X.jpe" height="20" width="30"> X
+</a>
+<br><br>
+
+<a href="https://youtube.com/@mychemicalromance?si=5e1Xl5cU380sqnE6" target="_blank" class="youtube">
+    <img src="Youtube.png" height="20" width="30"> Youtube
+</a>

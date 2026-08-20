@@ -1,0 +1,246 @@
+<HTML>
+<body bgcolor="BLACK">
+<center>
+<table width="80%">
+<tr>
+<td>
+<TABLE CELLPADDING="0" BORDER="3" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+<TR>
+</td>
+</tr>
+<NAV CLASS="menu-principal">
+    <UL CLASS="menu">
+        <a href="INICIO.html">
+    <img src="LOGO2.png" alt="Logo de MusicLyrics"
+    width="120"
+    HEIGHT="70"
+    CELLPADDING="0" BORDER="1" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+</a>
+
+<div class="menu">
+    <button class="menu-btn" onclick="toggleMenu()" background:#a855f7;>☰</button>
+    <div id="menuDesplegable" class="menu-contenido">
+        <a href="Inicio.html">🏠 Inicio</a>
+        <a href="acerca.html">ℹ️ Acerca de esta página</a>
+        <a href="creditos.html">👥 Créditos</a>
+    </div>
+</div>
+<button id="modo">☀️</button>
+<li class="buscador">
+
+<input 
+id="buscarArtista" 
+type="text" 
+oninput="sugerenciasArtistas()" 
+onkeydown="enterBuscar(event)"
+placeholder="Buscar artista...">
+
+    <button onclick="buscarArtista()">🔍</button>
+
+    <div id="listaSugerencias"></div>
+
+</li>
+</NAV>
+</table>
+
+<br><br>
+<link rel="STYLESHEET" href="MELANIE MARTINEZ.css">
+
+<div class="perfil artista">
+    <img src="foto de perfil.jpg" alt="Melanie Martinez" height="180", width="180">
+    <div class="informacion">
+        <h1 style="font-family: Old English Text MT;">Latin Mafia</h1>
+        <div class="perfil">
+            <img src="Spotify.png" width="60", height="60">
+        <a href="PERFILSPOTIFYDELARTISTA" style="color: rgb(24, 85, 123);" target="_blank">Escuchar en spotify</a>
+        </div>
+    </div>
+</div>
+<br>
+<font style="font-family: 'Times New Roman', Times, serif;" size="2">
+        <p>Latin Mafia se fundó en Monterrey, Nuevo León, aunque actualmente su sede está en Ciudad de México.</p>
+        <p>El grupo está formado por los hermanos Mike de la Rosa, productor y creador del proyecto, y los gemelos Emilio y Milton de la Rosa, quienes son los vocalistas principales</p>
+        <h3 style= "color: rgba(16, 99, 138, 0.783);">Estilo Musical y Conceptual:</h3>
+        <p>Es una banda mexicana de indie pop.</p>
+        <p>Mientras muchos artistas se enfocaban en la inmediatez del beat y el impacto de la imagen, Latín Mafia construyó una identidad sonora basada en la honestidad, la sensibilidad emocional y un refinamiento que los separó del resto.</p>
+</font>
+<br><br>
+            <hr noshade SIZE="5" COLOR="#333">
+    <script src="MELANIE MARTINEZ.JS"> </script>
+    <div class="contenedor">
+    <div class="artista" id="melanie"></div>
+    <div class="albumes">
+    <h1 style="color: #1a617f;">Álbumes:</h1>   
+    <div class="album">
+    <img src="PRIMER ALBUM.jpg"
+         height="120"
+         width="120">
+        <details>
+            
+        <summary>TODOS LOS DÍAS TODO EL DÍA</summary>
+<BR>
+    <button onclick="mostrarCancion('sietoquemerezcomas')">Siento que merezco más</button>
+    <br><br>
+
+   <button onclick="mostrarCancion('ycomotedigoque')">Y como te digo que</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('nuncahesidohonesto')">Nunca he sido honesto</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('meestoycayendo')">Me estoy cayendo</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('sentadoaqui')">Sentado aquí</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('vivosimeexiges')">Vivo si me exiges</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('peromeestoyacabando')">Pero me estoy acabando</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('quevamosahacer')">¿Que vamos a hacer?</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('yosiemprecontesto')">Yo siempre contesto</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('ven')">Ven</button>
+    <br><br>
+
+     <button onclick="mostrarCancion('tengomuchoruido')">Tengo mucho ruido</button>
+    <br><br>
+
+    
+
+    
+</details>
+</div>  
+<br><br>
+<div class="album">
+<img src="SEGUNDO ALBUM.jpg"
+height="120"
+width="120">
+<details>
+    <summary> 9 months & 50 hours</summary>
+<br>
+    <button onclick="mostrarCancion('heyhey')">Hey Hey</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('alvafro')">Alvafro</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('bonita')">Bonita</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('benjychord')">benjy chord</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('cmon')">Cmon</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('quiereme')">Quiéreme</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('casino143')">Casino143</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('filmscenesoundtrack')">Film Scene Soundtrack</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('openeyesignal')">Open Eye Signaln</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('piensasenmi')">Piensas En Mi</button>
+    <br><br>
+
+<button onclick="mostrarCancion('halo')">Halo</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('teestoycorreteando')">Te Estoy Correteando</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('mabe')">Mabe</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('iwishitwasnt')">I wish It wasn't</button>
+    <br><br>
+
+
+
+        </div>
+<br><br>
+    <h1 style="color: rgb(39, 74, 109);">Sencillos:</h1>
+    <br>
+            <div class="album">
+            <img src="SENCILLO.jpg"
+             height="120"
+             width="120">
+             <details>
+                <BR>
+    <summary>JULIETOTA</summary>
+    <button onclick="mostrarCancion('julietota')">Julietota </button>
+    <br><br>
+
+    <button onclick="mostrarCancion('julieta')">Julieta</button>
+    <br><br>
+
+
+    <button onclick="mostrarCancion('nodigasnada')">No digas nada</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('perlas')">perlas</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('salrosa')">Sal rosa</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('sefuelaluz')">se fue la luz</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('neoroneo')">neo roneo</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('flores')">FLORES</button>
+    <br><br>
+</div>
+
+</div>
+    <div class="contenido">
+
+        <h1 id="titulo" style="font-family: 'Times New Roman', Times, serif;">
+            Selecciona una canción
+        </h1>
+
+<audio id="audio" controls></audio>
+
+<br><br>
+        <div id="letra"></div>
+
+    </div>
+    </div>
+</div>
+</div>
+<br><br>
+<H3 style="font-family: 'Times New Roman', Times, serif;">Sigue a Latin Mafia en:</H3>
+
+<a href="https://www.instagram.com/latinmafia/"
+target="_blank"
+class=" instagram">
+<img src="IG.png" height="20" width="20">
+Instagram
+<br><br>
+<img src="Facebook.png" height="20" width="20">
+<a href="https://web.facebook.com/Itslatinmafia"
+target="_blank"
+class="facebook">
+Facebook
+<br><br>
+<img src="Youtube.png" height="20" width="30">
+<a href="https://www.youtube.com/@latinmafia"
+target="_blank"
+class="youtube">
+Youtube
+</a>
+</center>

@@ -1,0 +1,398 @@
+<HTML>
+<body bgcolor="BLACK">
+<center>
+<table width="80%">
+<tr>
+<td>
+<TABLE CELLPADDING="0" BORDER="3" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+<TR>
+</td>
+</tr>
+<NAV CLASS="menu-principal">
+    <UL CLASS="menu">
+        <a href="INICIO.html">
+    <img src="LOGO2.png" alt="Logo de MusicLyrics"
+    width="120"
+    HEIGHT="70"
+    CELLPADDING="0" BORDER="1" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+</a>
+
+<div class="menu">
+    <button class="menu-btn" onclick="toggleMenu()" background:#a855f7;>☰</button>
+    <div id="menuDesplegable" class="menu-contenido">
+        <a href="Inicio.html">🏠 Inicio</a>
+        <a href="ACERCA.html">ℹ️ Acerca de esta página</a>
+        <a href="creditos.html">👥 Créditos</a>
+    </div>
+</div>
+<button id="modo">☀️</button>
+<li class="buscador">
+
+<input 
+id="buscarArtista" 
+type="text" 
+oninput="sugerenciasArtistas()" 
+onkeydown="enterBuscar(event)"
+placeholder="Buscar artista...">
+
+    <button onclick="buscarArtista()">🔍</button>
+
+    <div id="listaSugerencias"></div>
+
+</li>
+</NAV>
+</table>
+
+<br><br>
+<link rel="STYLESHEET" href="MELANIE MARTINEZ.css">
+
+<div class="perfil artista">
+    <img src="soda logo.jpe" alt="Melanie Martinez" height="180", width="180">
+    <div class="informacion">
+        <h1 style="font-family: Old English Text MT;">Soda Stereo</h1>
+        <div class="perfil">
+            <img src="Spotify.png" width="60", height="60">
+        <a href="https://open.spotify.com/intl-es/artist/7An4yvF7hDYDolN4m5zKBp" target="_blank">Escuchar en spotify</a>
+        </div>
+    </div>
+</div>
+<br>
+<font style="font-family: 'Times New Roman', Times, serif;" size="2">
+        <p>Soda Stereo es una banda de rock argentina formada en 1982 originalmente por Gustavo Cerati, el bajista Zeta Bosio y el baterista Charly Alberti.</p>
+        <p>A lo largo de su extraordinaria carrera consigue todo tipo de récords históricos y la magia que producen sus canciones sigue más vigente que nunca, tal como demuestran las millones de reproducciones vía streaming y las ventas de discos</p>
+        <h3 style= "color: rgb(255, 255, 255);">Estilo Musical y Conceptual:</h3>
+        <p>Primero con influencias pop, luego dark y funk, Madchester y trip-hop, rock alternativo y electrónica, incluso revisitando el viejo rock argentino e internacional, siempre con elementos musicales de vanguardia y de rock clásico, el resultado es único y original.</p>
+        <p>Es considerada como la banda más importante, popular e influyente del rock en espanol y una leyenda de la musica Lationoamericana.</p>
+</font>
+<br><br>
+            <hr noshade SIZE="5" COLOR="#333">
+    <script src="MELANIE MARTINEZ.JS"> </script>
+    <div class="contenedor">
+    <div class="artista" id="melanie"></div>
+    <div class="albumes">
+    <h1 style="color: rgb(255, 255, 255);">Álbumes:</h1>   
+    <div class="album">
+    <img src="Soda Stereo.jpg"
+         height="120"
+         width="120">
+        <details>
+            
+        <summary>Soda Stereo (1984)</summary>
+<BR>
+    <button onclick="mostrarCancion('porquenopuedoserdeljetset')">Por Qué No Puedo Ser Del Jet-set?</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('sobredosisdetv')">Sobredosis De TV</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('tehacenfaltavitaminas')">Te Hacen Falta Vitaminas</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('tratamesuavemente')">Trátame Suavemente</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('dietetico')">Dietético</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('teleka')">Tele- Ka</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('niunsegundo')">Ni Un Segundo</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('unmisilenmiplacard')">Un Misil En Mi Placard</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('eltiempoesdinero')">El Tiempo Es Dinero</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('afrodisiacos')">Afrodisíacos</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('minoviatienebiceps')">Mi Novia Tiene Bíceps</button>
+    <br><br>
+    
+</details>
+</div>  
+<br><br>
+<div class="album">
+<img src="nada personal.jpe"
+height="120"
+width="120">
+<details>
+    <summary>Nada Personal</summary>
+<br>
+    <button onclick="mostrarCancion('nadapersonal')">Nada Personal</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('sinofuerapor')">Si No Fuera Por...</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('cuandopaseeltemblor')">Cuando Pase El Temblor</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('danzarota')">Danza Rota</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('elcuerpodeldelito')">El Cuerpo Del Delito</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('juegosdeseduccion')">Juegos de Seducción</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('estoyazulado')">Estoy Azulado</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('observandonos')">Observándonos (Satélites)</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('imagenesretro')">Imágenes Retro</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('ecos')">Ecos</button>
+    <br><br>
+
+</details>
+</div>
+<BR><BR>
+    <div class="album">
+    <img src="signos.jpe"
+    height="120"
+    width="120">
+<details>
+    <summary>Signos</summary>
+<br>
+    <button onclick="mostrarCancion('sinsobresaltos')">Sin Sobresaltos</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('elrito')">El Rito</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('profugos')">Prófugos</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('noexistes')">No Existes</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('persianaamericana')">Persiana Americana</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('encamino')">En Camino</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('signos')">Signos</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('finalcajanegra')">Final Caja Negra</button>
+    <br><br>
+
+</details>
+</div>
+<BR><BR>
+        <div class="album">
+    <img src="doble vida.jpe"
+    height="120"
+    width="120">
+<details>
+    <summary>Doble Vida</summary>
+<br>
+    <button onclick="mostrarCancion('picnicenel4b')">Picnic En El 4º B</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('enlaciudaddelafuria')">En La Ciudad de La Furia</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('loquesangra')">Lo Que Sangra (La Cúpula)</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('enelborde')">En El Borde</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('languis')">Languis</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('diacomun')">Día Común</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('corazondelator')">Corazón Delator</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('elritmodetusojos')">El Ritmo de Tus Ojos</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('terapiadeamorintensiva')">Terapia de Amor Intensiva</button>
+    <br><br>
+
+</details>
+        </div>
+<BR><BR>
+        <div class="album">
+    <img src="cancion animal.jpe"
+    height="120"
+    width="120">
+<details>
+    <summary>Canción Animal</summary>
+<br>
+    <button onclick="mostrarCancion('enelseptimodia')">(En) El Séptimo Día</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('unmillondeañosluz')">Un Millón De Años Luz</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('cancionanimal')">Canción Animal</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('milnuevenoventa')">1990 (Mil Nueve Noventa)</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('suelesdejarmesolo')">Sueles Dejarme Solo</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('demusicaligera')">De Música Ligera</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('hombrealagua')">Hombre Al Agua</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('entrecanibales')">Entre Caníbales</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('teparatres')">Te Para Tres (MTV Unplugged)</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('caeelsol')">Cae El Sol</button>
+    <br><br>
+
+        </div>
+<br><br>
+            <div class="album">
+            <img src="dynamo.jpe"
+             height="120"
+             width="120">
+             <details>
+                <BR>
+    <summary>Dynamo</summary>
+    <button onclick="mostrarCancion('secuenciainicial')">Secuencia Inicial</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('tomalaruta')">Toma La Ruta</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('enremolinos')">En Remolinos</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('primavera0')">Primavera 0</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('camaleon')">Camaleón</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('lunaroja')">Luna Roja</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('sweetsahumerio')">Sweet Sahumerio</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('ameba')">Ameba</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('nuestrafe')">Nuestra Fe</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('claroscuro')">Claroscuro</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('fue')">Fue</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('texturas')">Texturas</button>
+    <br><br>
+
+    </details>
+    </div>
+    <br><br>
+
+            <div class="album">
+            <img src="sueño stereo.jpe"
+             height="120"
+             width="120">
+             <details>
+                <BR>
+    <summary>Sueño Stereo</summary>
+    <button onclick="mostrarCancion('ellausomicabezacomounrevolver')">Ella Usó Mi Cabeza Como Un Revólver</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('discoeterno')">Disco Eterno</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('zoom')">Zoom</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('ojodelatormenta')">Ojo De La Tormenta</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('efectodoppler')">Efecto Doppler</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('paseandoporroma')">Paseando Por Roma</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('pasos')">Pasos</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('angelelectrico')">Angel Eléctrico</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('cremadeestrellas')">Crema de Estrellas</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('planta')">Planta</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('xplayo')">X Playo</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('moire')">Moirè</button>
+    <br><br>
+
+    </details>
+    </div>
+
+</div>
+    <div class="contenido">
+
+        <h1 id="titulo" style="font-family: 'Times New Roman', Times, serif;">
+            Selecciona una canción
+        </h1>
+
+<audio id="audio" controls></audio>
+
+<br><br>
+        <div id="letra"></div>
+
+    </div>
+    </div>
+</div>
+</div>
+<br><br>
+<H3 style="font-family: 'Times New Roman', Times, serif;">Sigue a Soda Stereo en:</H3>
+
+<a href="https://www.instagram.com/sodastereo/"
+target="_blank"
+class=" instagram">
+<img src="IG.png" height="20" width="20">
+Instagram
+<br><br>
+<img src="Facebook.png" height="20" width="20">
+<a href="https://www.facebook.com/sodastereo"
+target="_blank"
+class="facebook">
+Facebook
+<br><br>
+<img src="Youtube.png" height="20" width="30">
+<a href="https://www.youtube.com/channel/UC_MAancGcA0YeACrpSwokhQ"
+target="_blank"
+class="youtube">
+Youtube
+</a>
+</center>

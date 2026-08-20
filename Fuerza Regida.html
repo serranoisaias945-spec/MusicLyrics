@@ -1,0 +1,202 @@
+<HTML>
+<body bgcolor="BLACK">
+<center>
+<table width="80%">
+<tr>
+<td>
+<TABLE CELLPADDING="0" BORDER="3" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+<TR>
+</td>
+</tr>
+<NAV CLASS="menu-principal">
+    <UL CLASS="menu">
+        <a href="INICIO.html">
+    <img src="LOGO2.png" alt="Logo de MusicLyrics"
+    width="120"
+    HEIGHT="70"
+    CELLPADDING="0" BORDER="1" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+</a>
+
+<div class="menu">
+    <button class="menu-btn" onclick="toggleMenu()" background:#a855f7;>☰</button>
+    <div id="menuDesplegable" class="menu-contenido">
+        <a href="Inicio.html">🏠 Inicio</a>
+        <a href="acerca.html">ℹ️ Acerca de esta página</a>
+        <a href="creditos.html">👥 Créditos</a>
+    </div>
+</div>
+<button id="modo">☀️</button>
+<li class="buscador">
+
+<input 
+id="buscarArtista" 
+type="text" 
+oninput="sugerenciasArtistas()" 
+onkeydown="enterBuscar(event)"
+placeholder="Buscar artista...">
+
+    <button onclick="buscarArtista()">🔍</button>
+
+    <div id="listaSugerencias"></div>
+
+</li>
+</NAV>
+</table>
+
+<br><br>
+<link rel="STYLESHEET" href="MELANIE MARTINEZ.css">
+
+<div class="perfil artista">
+    <img src="portada.jpg" alt="Melanie Martinez" height="180", width="180">
+    <div class="informacion">
+        <h1 style="font-family: Old English Text MT;">Fuerza Regida</h1>
+        <div class="perfil">
+            <img src="Spotify.png" width="60", height="60">
+        <a href="https://open.spotify.com/intl-es/artist/0ys2OFYzWYB5hRDLCsBqxt?si=ym9jfy4hSmm9uCmtpvd0lA" style="color: pink;" target="_blank">Escuchar en spotify</a>
+        </div>
+    </div>
+</div>
+<br>
+<font style="font-family: 'Times New Roman', Times, serif;" size="2">
+        <p>Fuerza Regida es una banda estadounidense de música regional mexicana, originaria de San Bernardino, California. Es conocida por popularizar los corridos tumbados y por combinar sonidos tradicionales mexicanos con elementos modernos.</p>
+        <p>La agrupación se caracteriza por sus canciones que hablan sobre experiencias de vida, éxito, dinero, relaciones, fiestas y situaciones de la vida cotidiana, utilizando un estilo directo y contemporáneo.</p>
+        <h3 style= "color: pink;">Estilo Musical y Conceptual:</h3>
+        <p>Corridos tumbados, música regional mexicana, corridos y fusiones con hip-hop y música urbana.</p>
+        <p>Su concepto combina la cultura mexicana con una estética urbana y moderna. Sus letras suelen representar la vida cotidiana, la ambición, el éxito, las relaciones y el ambiente de la calle, con una imagen juvenil y actual.</p>
+</font>
+<br><br>
+            <hr noshade SIZE="5" COLOR="#333">
+    <script src="MELANIE MARTINEZ.JS"> </script>
+    <div class="contenedor">
+    <div class="artista" id="melanie"></div>
+    <div class="albumes">
+    <h1 style="color: pink;">Álbumes:</h1>   
+    <div class="album">
+    <img src="perfil1.jpg"
+         height="120"
+         width="120">
+        <details>
+            
+        <summary>ALBUM1</summary>
+<BR>
+    <button onclick="mostrarCancion('enculado')">ENCULADO</button> 
+    <br><br>                                                           
+
+    <button onclick="mostrarCancion('brillarosa')">BRILLAROSA</button> 
+    <br><br>
+
+    <button onclick="mostrarCancion('tuname')">TU NAME</button>  
+    <br><br>
+
+    <button onclick="mostrarCancion('oye')">OYE</button> 
+      <br><br>
+
+    <button onclick="mostrarCancion('falsa')">FALSA</button>   
+<br><br>
+
+    <button onclick="mostrarCancion('pxtxs')">PXTXS</button>   
+    <br><br>
+
+    
+</details>
+</div>  
+<br><br>
+<div class="album">
+<img src="perfil2.jpg"
+height="120"
+width="120">
+<details>
+    <summary>ALBUM2</summary>
+<br>
+    <button onclick="mostrarCancion('godfather')">GODFATHER</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('ayyweyy')">AYY WEYY</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('nocturno')">NOCTURNO</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('peliculiando')">PELICULIANDO</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('chavalitas')">CHAVALITAS</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('poresosojos')">POR ESOS OJOS</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('ansiedad')">ANSIEDAD</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('tusancho')">TU SANCHO</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('marlbororojo')">MARLNORO ROJO</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('chufulas')">CHUFULAS</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('chaka')">CHAKA</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('caperuza')">CAPERUZA</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('lokita')">LOKITA</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('labubu')">LABUBU</button>
+    <br><br>
+
+    <button onclick="mostrarCancion('comotu')">COMO TÚ</button>
+    <br><br>
+
+   </div>
+            <div class="album">
+    </div>
+                <div class="album">
+
+</div>
+                <div>
+</div>
+</details>
+</div>
+    <div class="contenido">
+
+        <h1 id="titulo" style="font-family: 'Times New Roman', Times, serif;">
+            Selecciona una canción
+        </h1>
+
+<audio id="audio" controls></audio>
+
+<br><br>
+        <div id="letra"></div>
+
+    </div>
+    </div>
+</div>
+</div>
+<br><br>
+<H3 style="font-family: 'Times New Roman', Times, serif;">Sigue a Fuerza Regida en:</H3>
+
+<a href="https://www.instagram.com/fuerzaregida/?utm_source=chatgpt.com"
+target="_blank"
+class=" instagram">
+<img src="IG.png" height="20" width="20">
+Instagram
+<br><br>
+<img src="Facebook.png" height="20" width="20">
+<a href="https://www.facebook.com/fuerzaregida/?utm_source=chatgpt.com"
+target="_blank"
+class="facebook">
+Facebook
+<br><br>
+<img src="Youtube.png" height="20" width="30">
+<a href="https://www.youtube.com/@fuerzaregida?utm_source=chatgpt.com"
+target="_blank"
+class="youtube">
+Youtube
+</a>
+</center>

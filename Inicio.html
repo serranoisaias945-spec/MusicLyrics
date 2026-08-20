@@ -1,0 +1,118 @@
+<HTML>
+<link rel="STYLESHEET" href="MELANIE MARTINEZ.css">
+
+<body bgcolor="BLACK" style="font-family: 'Times New Roman', Times, serif;">
+<center>
+<table width="80%">
+<tr>
+<td>
+<TABLE CELLPADDING="0" BORDER="3" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+<TR>
+</td>
+</tr>
+<NAV CLASS="menu-principal">
+    <UL CLASS="menu">
+        <a href="INICIO.html">
+    <img src="LOGO2.png" alt="Logo de MusicLyrics"
+    width="120"
+    HEIGHT="70"
+    CELLPADDING="0" BORDER="1" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
+</a>
+
+<div class="menu">
+    <button class="menu-btn" onclick="toggleMenu()" background:#a855f7;>☰</button>
+    <div id="menuDesplegable" class="menu-contenido">
+        <a href="Inicio.html">🏠 Inicio</a>
+        <a href="ACERCA.html">ℹ️ Acerca de esta página</a>
+        <a href="creditos.html">👥 Créditos</a>
+    </div>
+</div>
+
+<button id="modo">☀️</button>
+
+<li class="buscador">
+
+<input 
+id="buscarArtista" 
+type="text" 
+oninput="sugerenciasArtistas()" 
+onkeydown="enterBuscar(event)"
+placeholder="Buscar artista...">
+
+<button onclick="buscarArtista()">🔍</button>
+
+    <div id="listaSugerencias"></div>
+
+</li>
+</NAV>
+</table>
+<Center>
+<h1>Bienvenido a MusicLyrics</h1>
+<p>Explora tus artistas favoritos, conoce sus álbumes y disfruta de sus canciones.</p>
+</Center>
+<div class="collage-artistas">
+<H3 align="center">ESCUCHA TUS ARTISTAS FAVORITOS</H3>
+    <img src="COLLAGE.gif">
+    <img src="COLLAGE2.gif">
+    <img src="GAY.gif">
+    <img src="COLLAGE4.gif">
+    <img src="COLLAGE5.gif">
+    <img src="COLLAGE6.gif">
+</div>
+<br><br>
+
+<h2 style="font-family: 'Times New Roman', Times, serif;">Artistas destacados:</h2>
+<br>
+
+<div class="contenedor-artistas">
+
+    <div class="tarjeta-artista">
+        <a href="MELANIE MARTINEZ.html">
+            <img src="MELANIE.jpg">
+        </a>
+        <h3>Melanie Martinez</h3>
+        <p>Pop alternativo</p>
+    </div>
+
+
+    <div class="tarjeta-artista">
+        <a href="Soda Stereo.html">
+            <img src="Soda Stereo.jpg">
+        </a>
+        <h3>Soda Stereo</h3>
+        <p>Rock en español</p>
+    </div>
+
+        <div class="tarjeta-artista">
+        <a href="My Chemical Romance.html">
+            <img src="MCR.jpg">
+        </a>
+        <h3>My Chemical Romance</h3>
+        <p>Pop Punk/ Post-Hardcore</p>
+    </div>
+        <div class="tarjeta-artista">
+        <a href="Latin Mafia.html">
+            <img src="Latin Mafia.jpg">
+        </a>
+        <h3>Latin Mafia</h3>
+        <p>R&B Latino</p>
+    </div>
+        <div class="tarjeta-artista">
+        <a href="Tito Double P.html">
+            <img src="Tito Double P.jpg">
+        </a>
+        <h3>Tito Double P</h3>
+        <p>Regional Mexicano</p>
+    </div>
+        <div class="tarjeta-artista">
+        <a href="Fuerza Regida.html">
+            <img src="Fuerza Regida.jpg">
+        </a>
+        <h3>Fuerza Regida</h3>
+        <p>Regional Mexicano</p>
+    </div>
+</div>
+
+<script src="MELANIE MARTINEZ.JS"> </script>
+</body>
+</HTML>
