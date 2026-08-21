@@ -708,6 +708,10 @@ nav{
 }
 
 /* PRUEBA TEMPORAL */
-.menu-principal nav{
-    background-color: blue !important;
+.menu-principal{
+    background-color: red !important;
+}
+
+.menu{
+    width: 100%;
 }
