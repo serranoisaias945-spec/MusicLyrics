@@ -422,6 +422,8 @@ button:hover{
 nav{
     padding: 10px 15px;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 img:hover{
@@ -696,3 +698,10 @@ content: "☆"; color: crimson;
 
 }
 
+.menu-principal{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+}
