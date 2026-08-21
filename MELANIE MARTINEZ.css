@@ -645,14 +645,3 @@ ul li::before {
 content: "☆"; color: crimson;
     margin-right: 10px;
 }
-
-
-@media (max-width: 768px) {
-    body {
-        background-color: red !important;
-    }
-}
-
-body {
-    border: 20px solid lime !important;
-}
