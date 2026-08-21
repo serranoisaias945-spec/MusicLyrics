@@ -647,12 +647,8 @@ content: "☆"; color: crimson;
 }
 
 
-.contenido {
-    width: 70%;
-}
-
 @media (max-width: 768px) {
-    .contenido {
-        width: 95%;
+    body {
+        background-color: red;
     }
 }
