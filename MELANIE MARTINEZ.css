@@ -645,3 +645,21 @@ ul li::before {
 content: "☆"; color: crimson;
     margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    table {
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
