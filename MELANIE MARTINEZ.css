@@ -652,3 +652,7 @@ content: "☆"; color: crimson;
         background-color: red !important;
     }
 }
+
+body {
+    border: 20px solid lime !important;
+}
