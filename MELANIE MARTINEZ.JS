@@ -10211,6 +10211,7 @@ Oh, Dios
 Te amo`
     },
 
+    //Tito Double P
     maravilla:{
         titulo:"MARAVILLA",
         audio: "musictdp/Maravilla.mp3",
@@ -10384,7 +10385,7 @@ Y, de unicornio, te dieron el cuerno`
 
     57:{
         titulo:"5-7",
-        audio: "musictdp/5-7.mp3",
+        audio: "musictdp/5 - 7.mp3",
         letra:`Llega la noche, hay Luna llena
 El pensamiento me acelera
 Que no te tengo aquí conmigo, mi amor
@@ -10479,7 +10480,7 @@ Nunca se descuida nada`
 
     ellokeron:{
         titulo:"EL LOKERÓN",
-        audio: "musictdp/El lokeron.mp3",
+        audio: "musictdp/El Lokeron.mp3",
         letra:`Con la gorrita de lado, los ojos tumbados y cargo un placón
 Loco cabrón, así me dicen que soy
 Los plebes andan ondeados, si bajan los vidrios, un humaderón
@@ -10569,7 +10570,7 @@ Como marinero, uoh, uoh`
 
     aymama:{
         titulo:"AY MAMÁ",
-        audio: "musictdp/Ay mamá.mp3",
+        audio: "musictdp/Ay Mamá.mp3",
         letra:`Ay, mamá
 Cómo cambian las cosas de un día pa' otro
 Agüitado, yo mirando nuestras fotos
@@ -12630,6 +12631,7 @@ Tito Double P
 Ay-ay`
     },
 
+    //Fuerza Regida
     enculado:{
         titulo:"ENCULADO",
         audio: "musicfr/ENCULADO.mp3",
@@ -12662,7 +12664,7 @@ No se preocupe, conmigo está safe, suegra`
 
     brillarosa:{
         titulo:"BRILLAROSA",
-        audio: "musicfr/BRILLAROSA.mp3",
+        audio: "musicfr/Brillarosa.mp3",
         letra:`Billete grande lo que quiero, no me deja de gustar
 Por eso sigo chambeando, pa' un chingo de feria generar
 Fumando motita Cherry por el aire o por el mar
@@ -13586,6 +13588,8 @@ Bien heladas las noches y yo aquí sin tu culito
 Por Dios, qué martirio`
     },
 
+
+    //Latin Mafia
     sietoquemerezcomas:{
         titulo:"Siento que merezco más",
         audio: "musiclm/Siento que merezco mas.mp3",
@@ -13624,7 +13628,7 @@ Con ojos de curarme`
  
     ycomotedigoque:{
         titulo:"Y como te digo que",
-        audio: "musiclm/Y como te digo que.mp3",
+        audio: "musiclm/y como te digo que.mp3",
         letra:`¿Cómo te digo que me aliviaste?
 
 Si tú no has estado aquí, ¿qué quieres sanar?
@@ -14026,7 +14030,7 @@ Si estás aquí, no está tan mal`
   
    bonita:{
         titulo:"Bonita",
-        audio: "musiclm/Bonita .mp3",
+        audio: "musiclm/Bonita.mp3",
         letra:`Todo sale mal
 Si no estás acá
 (Yeah)
@@ -14267,9 +14271,9 @@ Todo eso, eso, eso, eso
         audio: "musiclm/Film Scene Soundtrack.mp3",
         letra:`[instrumental]`
     },
-    openeyesignaln:{
+    openeyesignal:{
         titulo:"Open Eye Signaln",
-        audio: "musiclm/Open Eye Signaln.mp3",
+        audio: "musiclm/Open Eye Signal.mp3",
         letra:`[instrumental]`
     },
       piensasenmi:{
