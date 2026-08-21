@@ -424,6 +424,7 @@ nav{
     align-items: center;
     width: 100%;
     box-sizing: border-box;
+    margin: 0;
 }
 
 img:hover{
