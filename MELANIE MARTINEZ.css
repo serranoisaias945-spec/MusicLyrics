@@ -649,6 +649,6 @@ content: "☆"; color: crimson;
 
 @media (max-width: 768px) {
     body {
-        background-color: red;
+        background-color: red !important;
     }
 }
