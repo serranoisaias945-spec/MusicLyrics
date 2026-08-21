@@ -706,3 +706,8 @@ content: "☆"; color: crimson;
 nav{
     width: 100%;
 }
+
+/* PRUEBA TEMPORAL */
+.menu-principal{
+    background-color: red !important;
+}
