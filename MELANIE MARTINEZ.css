@@ -647,19 +647,10 @@ content: "☆"; color: crimson;
 }
 
 @media (max-width: 768px) {
-
-    body {
+    html, body {
         width: 100%;
-        margin: 0;
-    }
-
-    table {
         max-width: 100%;
+        overflow-x: hidden;
     }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
 }
+
