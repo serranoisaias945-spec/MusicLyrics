@@ -659,13 +659,12 @@ table.contenedor {
 
 @media (max-width: 768px) {
 
-    html, body {
-        width: 100%;
-        min-width: 0;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
     table.contenedor {
         width: 100%;
@@ -721,8 +720,3 @@ table.contenedor {
 
 }
 
-table.contenedor {
-    width: 80%;
-    max-width: 1200px;
-    margin: auto;
-}
