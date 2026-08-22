@@ -685,9 +685,15 @@ body {
 
 nav.menu-principal .menu > li:nth-child(3) {
     position: absolute;
-    top: 5px;
-    right: 10px;
+    top: -2px;
+    right: 8px;
     z-index: 9999;
+}
+
+nav.menu-principal #modo {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
 }
 
     nav.menu-principal #modo {
