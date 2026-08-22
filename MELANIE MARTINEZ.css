@@ -643,8 +643,9 @@ ul {
     list-style: none;
 }
 
-ul li::before {
-content: "☆"; color: crimson;
+.lista-estrellas li::before {
+    content: "☆";
+    color: crimson;
     margin-right: 10px;
 }
 
@@ -684,8 +685,8 @@ body {
         padding: 10px 5px;
     }
 
-    .menu {
-    transform: translateX(-5px);
+.menu {
+    transform: translateX(-10px);
 }
 
     .collage-artistas {
