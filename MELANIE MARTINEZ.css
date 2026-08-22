@@ -125,6 +125,7 @@ body.claro .menu-principal {
     padding: 8px;
     border-radius: 10px;
     border: none;
+    font-size: 16px;
 }
 
 .buscador button {
@@ -513,7 +514,7 @@ background: linear-gradient(
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 70px;
+    gap: 90px;
 }
 
 
@@ -746,4 +747,10 @@ nav.menu-principal #modo {
         text-align: center;
         flex-basis: 100%;
     }
+
+#audio {
+    width: 100%;
+    height: 40px;
+}
+
 }
