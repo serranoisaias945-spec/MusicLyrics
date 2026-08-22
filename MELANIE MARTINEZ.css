@@ -667,6 +667,19 @@ table.contenedor {
         box-sizing: border-box;
     }
 
+    table {
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    table.contenedor {
+        width: 100%;
+    }
+
     .menu-principal {
         width: 100%;
     }
@@ -715,9 +728,6 @@ table.contenedor {
         flex-basis: 100%;
     }
 
-    table.contenedor {
-        width: 100%;
-    }
 }
 
 table.contenedor {
