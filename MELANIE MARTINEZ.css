@@ -656,12 +656,19 @@ table.contenedor {
     margin: auto;
 }
 
+
 @media (max-width: 768px) {
 
-    /* Menú */
+    html, body {
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     .menu-principal {
         width: 100%;
-        box-sizing: border-box;
     }
 
     nav {
@@ -669,7 +676,6 @@ table.contenedor {
         box-sizing: border-box;
     }
 
-    /* Collage */
     .collage-artistas {
         width: 100%;
         height: auto;
@@ -685,7 +691,6 @@ table.contenedor {
         height: 160px;
     }
 
-    /* Tarjetas de artistas */
     .contenedor-artistas {
         width: 100%;
         gap: 20px;
@@ -704,25 +709,19 @@ table.contenedor {
         height: 110px;
     }
 
-body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    .collage-artistas h3 {
+        width: 100%;
+        text-align: center;
+        flex-basis: 100%;
+    }
 
-.collage-artistas {
-    width: 100%;
-}
-
-.collage-artistas h3{
-    width: 100%;
-    text-align: center;
-    flex-basis: 100%;
+    table.contenedor {
+        width: 100%;
+    }
 }
 
 table.contenedor {
-    width: 100%;
-}
-
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
 }
