@@ -650,15 +650,6 @@ content: "☆"; color: crimson;
 }
 
 
-table.contenedor {
-    width: 80%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-
-@media (max-width: 768px) {
-
 body {
     width: 100%;
     margin: 0;
@@ -666,12 +657,27 @@ body {
     box-sizing: border-box;
 }
 
+table.contenedor {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     table.contenedor {
         width: 100%;
     }
 
     .menu-principal {
         width: 100%;
+        box-sizing: border-box;
     }
 
     nav {
