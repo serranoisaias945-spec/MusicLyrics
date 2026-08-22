@@ -685,7 +685,7 @@ body {
 
 nav.menu-principal .menu > li:nth-child(3) {
     position: absolute;
-    top: -2px;
+    top: -6px;
     right: 8px;
     z-index: 9999;
 }
