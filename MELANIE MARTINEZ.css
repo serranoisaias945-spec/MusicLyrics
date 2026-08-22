@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .perfil img{
     border-radius: 50%;
     object-fit: cover;
@@ -657,14 +653,14 @@ body {
     box-sizing: border-box;
 }
 
-.contenedor {
+.pagina {
     width: 80%;
     margin: auto;
 }
 
 @media (max-width: 768px) {
 
-    .contenedor {
+    .pagina {
         width: 100%;
     }
 
@@ -674,17 +670,13 @@ body {
         box-sizing: border-box;
     }
 
-    table.contenedor {
-        width: 100%;
-    }
-
     .menu-principal {
         width: 100%;
         box-sizing: border-box;
     }
 
     nav {
-        width: 50%;
+        width: 100%;
         box-sizing: border-box;
     }
 
@@ -726,9 +718,4 @@ body {
         text-align: center;
         flex-basis: 100%;
     }
-
-}
-
-* {
-    outline: 1px solid red;
 }
