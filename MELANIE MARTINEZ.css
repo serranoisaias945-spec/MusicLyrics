@@ -683,17 +683,24 @@ body {
         position: relative;
     }
 
-    nav.menu-principal #modo {
+    nav.menu-principal .menu > li:nth-child(3) {
         position: absolute;
         top: 5px;
         right: 5px;
         z-index: 9999;
+    }
+
+    nav.menu-principal #modo {
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: auto;
         margin: 0;
     }
 
-.menu {
-    transform: translateX(-10px);
-}
+    .menu {
+        transform: translateX(-10px);
+    }
 
     .collage-artistas {
         width: 100%;
