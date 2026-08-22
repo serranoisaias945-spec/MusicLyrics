@@ -762,8 +762,16 @@ nav.menu-principal #modo {
     position: static;
 }
 
+.contenedor,
+.contenido {
+    overflow: visible;
+}
+
 #audio {
+    display: block;
     width: 100%;
+    min-height: 54px;
+    height: auto;
 }
 
 }
