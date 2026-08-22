@@ -681,7 +681,12 @@ body {
     nav {
         width: 100%;
         box-sizing: border-box;
+        padding: 10px 5px;
     }
+
+    .menu {
+    transform: translateX(-5px);
+}
 
     .collage-artistas {
         width: 100%;
