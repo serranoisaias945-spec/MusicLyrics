@@ -234,8 +234,8 @@ body.claro .menu-principal {
     cursor: pointer;
 }
 
-#audio{
-    width: 60%;
+#audio {
+    width: 80%;
 }
 
 button{
@@ -764,7 +764,6 @@ nav.menu-principal #modo {
 
 #audio {
     width: 100%;
-    height: 40px;
 }
 
 }
