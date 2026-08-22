@@ -704,9 +704,10 @@ table.contenedor {
         height: 110px;
     }
 
-    body {
+body {
     width: 100%;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -718,6 +719,10 @@ table.contenedor {
     width: 100%;
     text-align: center;
     flex-basis: 100%;
+}
+
+table.contenedor {
+    width: 100%;
 }
 
 }
