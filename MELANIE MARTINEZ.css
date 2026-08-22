@@ -730,10 +730,6 @@ body {
 
 }
 
-html {
-    overflow-x: hidden;
-}
-
-body {
-    overflow-x: hidden;
+* {
+    outline: 1px solid red;
 }
