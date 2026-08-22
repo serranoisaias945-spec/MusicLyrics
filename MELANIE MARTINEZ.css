@@ -667,15 +667,6 @@ table.contenedor {
         box-sizing: border-box;
     }
 
-    table {
-        max-width: 100%;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
     table.contenedor {
         width: 100%;
     }
