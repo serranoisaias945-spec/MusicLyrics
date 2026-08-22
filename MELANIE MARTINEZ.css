@@ -173,10 +173,10 @@ body.claro .menu-principal {
     cursor: pointer;
 }
 
-.contenedor{
-    display:flex;
-    gap:30px;
-    align-items:flex-start;
+.contenedor {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
 }
 
 .albumes{
