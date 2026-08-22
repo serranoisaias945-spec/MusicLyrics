@@ -697,6 +697,22 @@ content: "☆"; color: crimson;
         height: 110px;
     }
 
+    body {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.collage-artistas {
+    width: 100%;
+}
+
+.collage-artistas h3{
+    width: 100%;
+    text-align: center;
+    flex-basis: 100%;
+}
+
 }
 
 .menu-principal{
@@ -705,4 +721,10 @@ content: "☆"; color: crimson;
 
 nav{
     width: 100%;
+}
+
+table.contenedor {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
 }
