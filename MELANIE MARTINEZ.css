@@ -657,13 +657,17 @@ body {
     box-sizing: border-box;
 }
 
-table.contenedor {
+.contenedor {
     width: 80%;
     max-width: 1200px;
     margin: auto;
 }
 
 @media (max-width: 768px) {
+
+    .contenedor {
+        width: 100%;
+    }
 
     body {
         width: 100%;
