@@ -56,6 +56,8 @@ body.claro .menu-principal {
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 .menu > li {
@@ -113,11 +115,13 @@ body.claro .menu-principal {
     display: flex;
     align-items: center;
     margin-left: auto;
-    position:relative;
+    margin-right: 0;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .buscador input {
-    width: 180px;
+    width: 150px;
     padding: 8px;
     border-radius: 10px;
     border: none;
