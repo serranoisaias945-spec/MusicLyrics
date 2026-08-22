@@ -266,9 +266,7 @@ button{
     background:#666;
 }
 
-html{
-    background:black;
-}
+
 
 .instagram{
     background: linear-gradient(
@@ -563,6 +561,7 @@ body.claro .tarjeta-artista{
     position: fixed;
     right: 20px;
     bottom: 20px;
+    z-index: 9999;
 }
 
 .tarjeta-artista:hover{
