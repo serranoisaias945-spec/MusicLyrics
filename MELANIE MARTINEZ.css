@@ -748,9 +748,14 @@ nav.menu-principal #modo {
         flex-basis: 100%;
     }
 
-#audio {
-    width: 100%;
-    height: 40px;
-}
+    .contenido {
+        width: 100%;
+        position: static;
+    }
+
+    #audio {
+        width: 100%;
+        height: 40px;
+    }
 
 }
