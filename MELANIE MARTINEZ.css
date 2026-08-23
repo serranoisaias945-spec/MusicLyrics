@@ -847,57 +847,74 @@ body {
         padding: 0;
     }
 
-
-    /* =========================
-       PERFIL DE MELANIE
-       ========================= */
+/* =========================
+   PERFIL DE MELANIE
+   ========================= */
 
 .perfil.artista {
-    width: 95%;
-    margin: auto;
+    width: 95% !important;
+    margin: 0 auto !important;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
 
-    gap: 15px;
-    padding: 15px;
+    gap: 12px !important;
+    padding: 12px !important;
+
+    text-align: left !important;
 }
 
 .perfil.artista > img {
-    width: 120px;
-    height: 120px;
+    width: 100px !important;
+    height: 100px !important;
+
     flex-shrink: 0;
 }
 
 .perfil.artista .informacion {
     flex: 1;
-    text-align: left;
+    min-width: 0;
+
+    text-align: left !important;
 }
 
 .perfil.artista .informacion h1 {
-    font-size: 25px;
-    margin: 0 0 10px 0;
+    font-size: 21px !important;
+    margin: 0 0 8px 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
 }
 
+/* Spotify */
+
 .perfil.artista .informacion > .perfil {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
 
-    gap: 8px;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
 
-    background: none;
-    box-shadow: none;
-    padding: 0;
+    gap: 7px !important;
+
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
 }
 
 .perfil.artista .informacion > .perfil img {
-    width: 45px;
-    height: 45px;
+    width: 40px !important;
+    height: 40px !important;
+    flex-shrink: 0;
 }
 
-
+.perfil.artista .informacion > .perfil a {
+    font-size: 14px;
+    white-space: nowrap;
+}
     /* =========================
        ÁLBUMES + CONTENIDO
        ========================= */
