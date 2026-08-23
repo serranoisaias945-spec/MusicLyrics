@@ -915,6 +915,12 @@ body {
     font-size: 14px;
     white-space: nowrap;
 }
+
+/* Forzar todo el contenido del perfil a la izquierda */
+.perfil.artista,
+.perfil.artista * {
+    text-align: left !important;
+}
     /* =========================
        ÁLBUMES + CONTENIDO
        ========================= */
