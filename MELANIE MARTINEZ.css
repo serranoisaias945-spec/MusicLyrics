@@ -659,108 +659,320 @@ body {
 
 @media (max-width: 768px) {
 
-    .pagina {
-        width: 100%;
-    }
+    /* =========================
+       CONFIGURACIÓN GENERAL
+       ========================= */
 
     body {
         width: 100%;
+        margin: 0;
         padding: 0;
-        box-sizing: border-box;
+        overflow-x: hidden;
     }
+
+    .pagina {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    /* =========================
+       MENÚ
+       ========================= */
 
     .menu-principal {
         width: 100%;
-        box-sizing: border-box;
+        border-radius: 0;
+        margin-bottom: 10px;
     }
 
     nav {
         width: 100%;
-        box-sizing: border-box;
-        padding: 10px 5px;
+        padding: 8px 5px;
     }
 
-    nav.menu-principal {
-        position: relative;
+    .menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        transform: none;
     }
 
-nav.menu-principal .menu > li:nth-child(3) {
-    position: absolute;
-    top: -6px;
-    right: 8px;
-    z-index: 9999;
-}
+    /* Logo */
 
-nav.menu-principal #modo {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-}
+    .menu > li:first-child img {
+        width: 85px;
+        height: auto;
+    }
+
+    /* Botón hamburguesa */
+
+    .menu-btn {
+        font-size: 25px;
+        padding: 8px;
+    }
+
+    /* Botón modo claro */
+
+    nav.menu-principal .menu > li:nth-child(3) {
+        position: fixed;
+        right: 12px;
+        bottom: 12px;
+        z-index: 9999;
+    }
 
     nav.menu-principal #modo {
         position: relative;
         top: auto;
         right: auto;
         bottom: auto;
-        margin: 0;
+
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
     }
 
-    .menu {
-        transform: translateX(-10px);
+
+    /* =========================
+       BUSCADOR
+       ========================= */
+
+    .buscador {
+        margin-left: auto;
+        margin-right: 5px;
+        min-width: 0;
     }
+
+    .buscador input {
+        width: 120px;
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    .buscador button {
+        padding: 7px 9px;
+    }
+
+    #listaSugerencias {
+        width: 160px;
+        right: 0;
+        left: auto;
+    }
+
+
+    /* =========================
+       TÍTULOS
+       ========================= */
+
+    h1 {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    p {
+        padding: 0 10px;
+    }
+
+
+    /* =========================
+       COLLAGE
+       ========================= */
 
     .collage-artistas {
         width: 100%;
         height: auto;
-        min-height: 250px;
+        min-height: 0;
+
+        display: flex;
         flex-wrap: wrap;
-        padding: 15px;
-        box-sizing: border-box;
-        gap: 10px;
-    }
+        justify-content: center;
 
-    .collage-artistas img {
-        width: 100px;
-        height: 160px;
-    }
-
-    .contenedor-artistas {
-        width: 100%;
-        gap: 20px;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-
-    .tarjeta-artista {
-        width: 150px;
-        padding: 15px;
-        box-sizing: border-box;
-    }
-
-    .tarjeta-artista img {
-        width: 110px;
-        height: 110px;
+        padding: 15px 5px;
+        gap: 8px;
     }
 
     .collage-artistas h3 {
         width: 100%;
-        text-align: center;
         flex-basis: 100%;
+        text-align: center;
+        margin: 5px 0 10px;
     }
 
-.contenedor {
-    flex-direction: column;
-    width: 100%;
-}
+    .collage-artistas img {
+        width: 100px;
+        height: 150px;
+        object-fit: cover;
+    }
 
-.albumes {
-    width: 100%;
-}
 
-.contenido {
-    width: 100%;
-    position: static;
-}
+    /* =========================
+       ARTISTAS DESTACADOS
+       ========================= */
 
+    .contenedor-artistas {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+
+        padding: 10px;
+    }
+
+    .tarjeta-artista {
+        width: calc(50% - 10px);
+        max-width: 180px;
+
+        padding: 12px;
+        border-radius: 15px;
+    }
+
+    .tarjeta-artista img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .tarjeta-artista h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .tarjeta-artista p {
+        font-size: 14px;
+        padding: 0;
+    }
+
+
+    /* =========================
+       PERFIL DE MELANIE
+       ========================= */
+
+    .perfil {
+        width: 95%;
+        margin: auto;
+
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .perfil img {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    /* =========================
+       ÁLBUMES + CONTENIDO
+       ========================= */
+
+    .contenedor {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .albumes {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .contenido {
+        width: 100%;
+        padding: 0 10px;
+
+        position: static;
+    }
+
+
+    /* =========================
+       ÁLBUM INDIVIDUAL
+       ========================= */
+
+    .album {
+        width: 100%;
+
+        display: flex;
+        align-items: flex-start;
+
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .album img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .album summary {
+        font-size: 18px;
+    }
+
+
+    /* =========================
+       LETRA + VIDEO
+       ========================= */
+
+    .contenido-cancion {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .letra {
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .video iframe {
+        width: 100%;
+        height: 220px;
+    }
+
+    #letra {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.5;
+
+        white-space: pre-line;
+        overflow-wrap: break-word;
+    }
+
+    #audio {
+        width: 100%;
+    }
+
+
+    /* =========================
+       SUBMENÚ
+       ========================= */
+
+    .menu-contenido {
+        left: 0;
+        top: 45px;
+        min-width: 200px;
+    }
+
+    .menu-contenido a {
+        padding: 13px;
+    }
 
 }
