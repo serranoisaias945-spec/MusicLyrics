@@ -659,10 +659,6 @@ body {
 
 @media (max-width: 768px) {
 
-        body > center > table {
-        width: 100% !important;
-    }
-
     /* =========================
        CONFIGURACIÓN GENERAL
        ========================= */
@@ -997,6 +993,11 @@ body {
 
     .menu-contenido a {
         padding: 13px;
+    }
+
+    table {
+        width: 100% !important;
+        max-width: 100% !important;
     }
 
 }
