@@ -1,51 +1,56 @@
-<HTML>
-<link rel="STYLESHEET" href="MELANIE MARTINEZ.css">
+<!DOCTYPE html>
+<html lang="es">
 
-<body bgcolor="BLACK" style="font-family: 'Times New Roman', Times, serif;">
-<center>
-<table width="80%">
-<tr>
-<td>
-<TABLE CELLPADDING="0" BORDER="3" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
-<TR>
-</td>
-</tr>
-<NAV CLASS="menu-principal">
-    <UL CLASS="menu">
-        <a href="index.html">
-    <img src="LOGO2.png" alt="Logo de MusicLyrics"
-    width="120"
-    HEIGHT="70"
-    CELLPADDING="0" BORDER="1" STYLE="border-collapse: collapse; BOX-SHADOW: 0 4PX 8PX RGBA(0,0,0,0.1); BORDER-RADIUS:10PX; OVERFLOW: HIDDEN;">
-</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="menu">
-    <button class="menu-btn" onclick="toggleMenu()" background:#a855f7;>☰</button>
-    <div id="menuDesplegable" class="menu-contenido">
-        <a href="index.html">🏠 Inicio</a>
-        <a href="ACERCA.html">ℹ️ Acerca de esta página</a>
-        <a href="creditos.html">👥 Créditos</a>
-    </div>
-</div>
+    <link rel="stylesheet" href="MELANIE MARTINEZ.css">
+</head>
 
-<button id="modo">☀️</button>
+<div class="pagina">
 
-<li class="buscador">
+<nav class="menu-principal">
+    <ul class="menu">
 
-<input 
-id="buscarArtista" 
-type="text" 
-oninput="sugerenciasArtistas()" 
-onkeydown="enterBuscar(event)"
-placeholder="Buscar artista...">
+        <li>
+            <a href="index.html">
+                <img src="LOGO2.png" alt="Logo de MusicLyrics"
+                width="120"
+                height="70"
+                style="box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius:10px; overflow:hidden;">
+            </a>
+        </li>
 
-<button onclick="buscarArtista()">🔍</button>
+        <li>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
 
-    <div id="listaSugerencias"></div>
+            <div id="menuDesplegable" class="menu-contenido">
+                <a href="index.html">🏠 Inicio</a>
+                <a href="ACERCA.html">ℹ️ Acerca de esta página</a>
+                <a href="creditos.html">👥 Créditos</a>
+            </div>
+        </li>
 
-</li>
-</NAV>
-</table>
+        <li>
+            <button id="modo">☀️</button>
+        </li>
+
+        <li class="buscador">
+            <input 
+                id="buscarArtista" 
+                type="text" 
+                oninput="sugerenciasArtistas()" 
+                onkeydown="enterBuscar(event)"
+                placeholder="Buscar artista...">
+
+            <button onclick="buscarArtista()">🔍</button>
+
+            <div id="listaSugerencias"></div>
+        </li>
+
+    </ul>
+</nav>
 <ul class="lista-estrellas">
 <script src="MELANIE MARTINEZ.JS"> </script>
 
@@ -75,5 +80,8 @@ placeholder="Buscar artista...">
 <BR><BR>
 <li>Y la opción de descargar la canción.</li>
 <img src="ACERCA6.png" width="370", height="250">
+<BR><BR>
+<li>Lo mismo para dispositivo movil, solamente que el reproductor se encuentra en la parte de abajo.</li>
+<img src="ACERCA7.jpeg" width="190", height="240">
 </ul>
 </ul>
