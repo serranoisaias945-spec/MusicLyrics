@@ -15004,53 +15004,70 @@ Los devuelvo luego`
 };
 
 
-let cancionAbierta = "";
+let cancionAbierta = ""; 
+ 
+function mostrarCancion(nombre){ 
+ 
+    if(cancionAbierta === nombre){ 
+ 
+        document.getElementById("titulo").innerHTML = 
+        "Selecciona una canción"; 
+ 
+        document.getElementById("letra").innerHTML = 
+        ""; 
+ 
+        document.getElementById("audio").src = ""; 
+ 
+        cancionAbierta = ""; 
+ 
+        return; 
+    } 
+ 
+    let cancion = canciones[nombre]; 
+ 
+    if(!cancion){ 
+        document.getElementById("titulo").innerHTML = 
+        "Próximamente"; 
+ 
+        return; 
+    } 
+ 
+    cancionAbierta = nombre; 
+ 
+    document.getElementById("titulo").innerHTML = 
+    cancion.titulo; 
+ 
+    document.getElementById("letra").innerHTML = 
+    cancion.letra; 
+ 
+    const audio = document.getElementById("audio"); 
+ 
+    audio.src = cancion.audio; 
+    audio.load(); 
 
+    audio.onended = function () {
 
-function mostrarCancion(nombre){
+    const botones = Array.from(
+        document.querySelectorAll('button[onclick*="mostrarCancion"]')
+    );
 
-    if(cancionAbierta === nombre){
+    let indiceActual = -1;
 
-        document.getElementById("titulo").innerHTML =
-        "Selecciona una canción";
+    for (let i = 0; i < botones.length; i++) {
 
-        document.getElementById("letra").innerHTML =
-        "";
+        const texto = botones[i].getAttribute("onclick");
 
-        document.getElementById("audio").src = "";
-
-        cancionAbierta = "";
-
-        return;
+        if (texto.includes("'" + cancionAbierta + "'")) {
+            indiceActual = i;
+            break;
+        }
     }
 
-
-    let cancion = canciones[nombre];
-
-
-    if(!cancion){
-        document.getElementById("titulo").innerHTML =
-        "Próximamente";
-
-        return;
-    }
-
-
-    cancionAbierta = nombre;
-
-
-    document.getElementById("titulo").innerHTML =
-    cancion.titulo;
-
-
-    document.getElementById("letra").innerHTML =
-    cancion.letra;
-
-const audio = document.getElementById("audio");
-
-audio.src = cancion.audio;
-audio.load();
-
+if (indiceActual >= 0 && indiceActual < botones.length - 1) {
+    botones[indiceActual + 1].click();
+    document.getElementById("audio").play();
+}
+};
 }
 
 // Lista de artistas
