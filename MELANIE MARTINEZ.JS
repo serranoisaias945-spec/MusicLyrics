@@ -15070,6 +15070,64 @@ if (indiceActual >= 0 && indiceActual < botones.length - 1) {
 };
 }
 
+function obtenerBotonesCanciones() {
+
+    return Array.from(
+        document.querySelectorAll('button[onclick*="mostrarCancion"]')
+    );
+
+}
+
+
+function obtenerIndiceActual() {
+
+    const botones = obtenerBotonesCanciones();
+
+    for (let i = 0; i < botones.length; i++) {
+
+        const onclick = botones[i].getAttribute("onclick");
+
+        if (onclick.includes("'" + cancionAbierta + "'")) {
+            return i;
+        }
+
+    }
+
+    return -1;
+}
+
+
+function cancionSiguiente() {
+
+    const botones = obtenerBotonesCanciones();
+    const indice = obtenerIndiceActual();
+
+    if (indice >= 0 && indice < botones.length - 1) {
+
+        botones[indice + 1].click();
+
+        document.getElementById("audio").play();
+
+    }
+
+}
+
+
+function cancionAnterior() {
+
+    const botones = obtenerBotonesCanciones();
+    const indice = obtenerIndiceActual();
+
+    if (indice > 0) {
+
+        botones[indice - 1].click();
+
+        document.getElementById("audio").play();
+
+    }
+
+}
+
 // Lista de artistas
 let artistas = [
     "Melanie Martinez",
