@@ -15042,8 +15042,11 @@ function mostrarCancion(nombre){
  
     const audio = document.getElementById("audio"); 
  
-    audio.src = cancion.audio; 
-    audio.load(); 
+audio.src = cancion.audio;
+audio.load();
+audio.play();
+
+precargarSiguiente();
 
     audio.onended = function () {
 
@@ -15070,62 +15073,49 @@ if (indiceActual >= 0 && indiceActual < botones.length - 1) {
 };
 }
 
-function obtenerBotonesCanciones() {
+let audioPrecarga = new Audio();
 
-    return Array.from(
+function precargarSiguiente() {
+
+    const botones = Array.from(
         document.querySelectorAll('button[onclick*="mostrarCancion"]')
     );
 
-}
-
-
-function obtenerIndiceActual() {
-
-    const botones = obtenerBotonesCanciones();
+    let indiceActual = -1;
 
     for (let i = 0; i < botones.length; i++) {
 
-        const onclick = botones[i].getAttribute("onclick");
+        const texto = botones[i].getAttribute("onclick");
 
-        if (onclick.includes("'" + cancionAbierta + "'")) {
-            return i;
+        if (texto.includes("'" + cancionAbierta + "'")) {
+            indiceActual = i;
+            break;
         }
-
     }
 
-    return -1;
-}
+    if (indiceActual >= 0 && indiceActual < botones.length - 1) {
 
+        const textoSiguiente =
+        botones[indiceActual + 1].getAttribute("onclick");
 
-function cancionSiguiente() {
+        const coincidencia =
+        textoSiguiente.match(
+            /mostrarCancion\(\s*['"](.+?)['"]\s*\)/
+        );
 
-    const botones = obtenerBotonesCanciones();
-    const indice = obtenerIndiceActual();
+        if (coincidencia) {
 
-    if (indice >= 0 && indice < botones.length - 1) {
+            const siguiente =
+            canciones[coincidencia[1]];
 
-        botones[indice + 1].click();
+            if (siguiente) {
 
-        document.getElementById("audio").play();
+                audioPrecarga.src = siguiente.audio;
+                audioPrecarga.preload = "auto";
 
+            }
+        }
     }
-
-}
-
-
-function cancionAnterior() {
-
-    const botones = obtenerBotonesCanciones();
-    const indice = obtenerIndiceActual();
-
-    if (indice > 0) {
-
-        botones[indice - 1].click();
-
-        document.getElementById("audio").play();
-
-    }
-
 }
 
 // Lista de artistas
