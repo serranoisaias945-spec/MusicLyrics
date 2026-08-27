@@ -296,7 +296,15 @@ Goodnite, Dr. Death</button>
             Selecciona una canción
         </h1>
 
-<audio id="audio" controls></audio>
+<div class="controles-musica">
+
+    <button id="anterior" onclick="cancionAnterior()">⏮</button>
+
+    <audio id="audio" controls></audio>
+
+    <button id="siguiente" onclick="cancionSiguiente()">⏭</button>
+
+</div>
 
 <br><br>
         <div id="letra"></div>
