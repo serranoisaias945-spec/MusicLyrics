@@ -15045,6 +15045,15 @@ function mostrarCancion(nombre){
     audio.src = cancion.audio; 
     audio.load(); 
 
+    if ("mediaSession" in navigator) {
+
+    navigator.mediaSession.metadata = new MediaMetadata({
+        title: cancion.titulo,
+        artist: "Melanie Martinez"
+    });
+
+}
+
     audio.onended = function () {
 
     const botones = Array.from(
@@ -15125,6 +15134,28 @@ function cancionAnterior() {
         document.getElementById("audio").play();
 
     }
+
+}
+
+// CONTROLES MULTIMEDIA DEL TELÉFONO
+
+if ("mediaSession" in navigator) {
+
+    navigator.mediaSession.setActionHandler("play", function() {
+        document.getElementById("audio").play();
+    });
+
+    navigator.mediaSession.setActionHandler("pause", function() {
+        document.getElementById("audio").pause();
+    });
+
+    navigator.mediaSession.setActionHandler("nexttrack", function() {
+        cancionSiguiente();
+    });
+
+    navigator.mediaSession.setActionHandler("previoustrack", function() {
+        cancionAnterior();
+    });
 
 }
 
