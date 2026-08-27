@@ -15073,6 +15073,60 @@ if (indiceActual >= 0 && indiceActual < botones.length - 1) {
 };
 }
 
+function obtenerBotonesCanciones() {
+
+    return Array.from(
+        document.querySelectorAll('button[onclick*="mostrarCancion"]')
+    );
+
+}
+
+
+function obtenerIndiceActual() {
+
+    const botones = obtenerBotonesCanciones();
+
+    for (let i = 0; i < botones.length; i++) {
+
+        const texto = botones[i].getAttribute("onclick");
+
+        if (texto.includes("'" + cancionAbierta + "'")) {
+            return i;
+        }
+
+    }
+
+    return -1;
+}
+
+
+function cancionSiguiente() {
+
+    const botones = obtenerBotonesCanciones();
+    const indice = obtenerIndiceActual();
+
+    if (indice >= 0 && indice < botones.length - 1) {
+
+        botones[indice + 1].click();
+
+    }
+
+}
+
+
+function cancionAnterior() {
+
+    const botones = obtenerBotonesCanciones();
+    const indice = obtenerIndiceActual();
+
+    if (indice > 0) {
+
+        botones[indice - 1].click();
+
+    }
+
+}
+
 let audioPrecarga = new Audio();
 
 function precargarSiguiente() {
@@ -15105,8 +15159,7 @@ function precargarSiguiente() {
 
         if (coincidencia) {
 
-            const siguiente =
-            canciones[coincidencia[1]];
+            const siguiente = canciones[coincidencia[1]];
 
             if (siguiente) {
 
